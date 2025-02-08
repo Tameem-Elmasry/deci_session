@@ -1,5 +1,3 @@
-const sayHello = () => {
-    return "Hello"
+export function greet(name) {
+    return `Hello, ${name}!`;
 }
-
-module.exports = sayHello;
